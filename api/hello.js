@@ -1,4 +1,3 @@
-// hello.js
-export default function handler(req, res) {
-  res.status(200).json({ message: "Hello from backend!" });
-}
+app.get('/', (req, res) => {
+  res.send('API server is running');
+});
